@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Inteligente - Byte</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        <h1>Byte 🤖</h1>
+        <p class="status">Online</p>
+    </div>
+
+    <div id="chat-box" role="region" aria-label="Histórico de mensagens"></div>
+
+    <div class="input-area">
+        <input 
+            type="text" 
+            id="user-input" 
+            placeholder="Digite sua mensagem..." 
+            aria-label="Campo de entrada de mensagem"
+            autocomplete="off">
+        <button id="send-btn" aria-label="Enviar mensagem">Enviar</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
